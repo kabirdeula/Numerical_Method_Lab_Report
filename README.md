@@ -6,7 +6,8 @@
 |2|[False Position Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab2-FalsePositionMethod.py)|
 
 <details>
-    <summary>:zap: Bisection Method Algorithm</summary>
+    <summary>Bisection Method Algorithm</summary>
+    
     1. start
 
     2. Define function f(x)
