@@ -5,7 +5,7 @@
 |1|[Bisection Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab1-BisectionMethod.py)|
 |2|[False Position Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab2-FalsePositionMethod.py)|
 |3|[Newton Raphson Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab3-NewtonRaphsonMethod.py)|
-
+|4|[Fixed Point Iteration](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab4-FixedPointIterationMethod.py)|
 # Algorithm
 
 <details>
@@ -91,4 +91,32 @@
 
     12. Stop
 
+</details>
+
+<details>
+    <summary>Fixed Point Iteration</summary>
+    
+        Start 
+
+        Define function f(x)
+
+        Define function g(x) which is obtained from f(x)=0 such that x = g(x) and |g'(x) < 1|
+
+        Choose intial guess x0, Tolerable Error e and Maximum Iteration N
+
+        Initialize iteration counter: step = 1
+
+        Calculate x1 = g(x0)
+
+        Increment iteration counter: step = step + 1
+
+        If step > N then print "Not Convergent" and goto (12) otherwise goto (10) 
+
+        Set x0 = x1 for next iteration
+
+        If |f(x1)| > e then goto step (6) otherwise goto step (11)
+
+        Display x1 as root.
+
+        Stop
 </details>
