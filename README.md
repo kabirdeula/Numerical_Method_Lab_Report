@@ -70,53 +70,45 @@
     3. Define first derivative of f(x) as g(x)
 
     4. Input initial guess (x0), tolerable error (e) 
-       and maximum iteration (N)
 
     5. Initialize iteration counter i = 1
 
-    6. If g(x0) = 0 then print "Mathematical Error" 
-       and goto (12) otherwise goto (7) 
+    6. If g(x0) = 0 then print "Mathematical Error" and goto (11) otherwise goto (7) 
 
     7. Calcualte x1 = x0 - f(x0) / g(x0)
 
     8. Increment iteration counter i = i + 1
 
-    9. If i >= N then print "Not Convergent" 
-       and goto (12) otherwise goto (10) 
+    9. If |f(x1)| > e then set x0 = x1 and goto (6) otherwise goto (11)
 
-    10. If |f(x1)| > e then set x0 = x1 
-        and goto (6) otherwise goto (11)
+    10. Print root as x1
 
-    11. Print root as x1
-
-    12. Stop
+    11. Stop
 
 </details>
 
 <details>
     <summary>Fixed Point Iteration</summary>
     
-        Start 
+    1. Start 
 
-        Define function f(x)
+    2. Define function f(x)
+    
+    3. Define function g(x) which is obtained from f(x)=0 such that x = g(x) and |g'(x) < 1|
 
-        Define function g(x) which is obtained from f(x)=0 such that x = g(x) and |g'(x) < 1|
+    4. Choose intial guess x0, Tolerable Error e
 
-        Choose intial guess x0, Tolerable Error e and Maximum Iteration N
+    5. Initialize iteration counter: step = 1
 
-        Initialize iteration counter: step = 1
+    6. Calculate x1 = g(x0)
 
-        Calculate x1 = g(x0)
+    7. Increment iteration counter: step = step + 1 
 
-        Increment iteration counter: step = step + 1
+    8. Set x0 = x1 for next iteration
 
-        If step > N then print "Not Convergent" and goto (12) otherwise goto (10) 
+    9. If |f(x1)| > e then goto step (6) otherwise goto step (10)
 
-        Set x0 = x1 for next iteration
+    10. Display x1 as root.
 
-        If |f(x1)| > e then goto step (6) otherwise goto step (11)
-
-        Display x1 as root.
-
-        Stop
+    11. Stop
 </details>
