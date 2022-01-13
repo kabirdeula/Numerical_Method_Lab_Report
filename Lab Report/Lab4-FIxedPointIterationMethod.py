@@ -18,12 +18,12 @@ def fixedPointIteration(x0, e):
     print('Iteration\tx1\t\tf(x1)\t\tError')
     while condition:
         x1 = g(x0)
-        err = x1 - x0;
+        err = (x1 - x0)/x1
         print('%d\t\t%0.6f\t%0.6f\t%0.6f'%(step, x1, f(x1), err))
         
         x0 = x1
 
-        step = step + 1
+        step += 1
         
         condition = abs(f(x1)) > e
 

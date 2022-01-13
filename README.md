@@ -96,7 +96,7 @@
     
     3. Define function g(x) which is obtained from f(x)=0 such that x = g(x) and |g'(x) < 1|
 
-    4. Choose intial guess x0, Tolerable Error e
+    4. Choose initial guess x0, Tolerable Error e
 
     5. Initialize iteration counter: step = 1
 
