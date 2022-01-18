@@ -112,3 +112,31 @@
 
     11. Stop
 </details>
+<details>
+    <summary>Lagrange Interpolation Method</summary>
+
+    1. Start
+
+    2. Read number of data (n)
+
+    3. Read data X<sub>i</sub> and Y<sub>i</sub> for i = 1 to n
+
+    4. Read value of independent variables say xp whose corresponding value of dependent say yp is to be determined.
+
+    5. Initialize: yp = 0
+
+    6. For i = 1 to n
+        Set p = 1
+        For j = 1 to n
+            If i != j then
+                Calculate p = p * (xp - X<sub>j</sub>)/(X<sub>i</sub> - X<sub>j</sub>)
+            End if
+        Next j
+        Calculate yp = yp + p * Y<sub>i</sub>
+       Next i
+    
+    7. Display value of yp as interpolated value.
+
+    8. Stop
+
+</details>
