@@ -10,6 +10,7 @@ This is a Numerical Method Lab Report made using Python.
     - [Newton Raphson Method](#newton-raphson-method)
     - [Fixed Point Iteration Method](#fixed-point-iteration-method)
     - [Lagrange Interpolation Method](#lagrange-interpolation-method)
+    - [Newton Divided Difference](#newton-divided-difference)
 - [My Process](#my-process)
 - [Author](#author)
 
@@ -84,11 +85,11 @@ else:
 
 ![Bisection Method](./assets/Bisection-Method.png)
 
-### Links
+### Link
 
 [Bisection Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab1-BisectionMethod.py)
 
-<button>[Back to Top](#table-of-contents)</button>
+[Back to Top](#table-of-contents)
 
 ## False Position Method
 
@@ -164,11 +165,11 @@ else:
 
 ![False Position Method](./assets/False-Position-Method.png)
 
-### Links
+### Link
 
 [False Position Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab2-FalsePositionMethod.py)
 
-<button>[Back to Top](#table-of-contents)</button>
+[Back to Top](#table-of-contents)
 
 ## Newton Raphson Method
 
@@ -245,11 +246,11 @@ newtonRaphson(x0,e)
 
 ![Newton Raphson Method](./assets/Newton-Raphson-Method.png)
 
-### Links
+### Link
 
 [Newton Raphson Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab3-NewtonRaphsonMethod.py)
 
-<button>[Back to Top](#table-of-contents)</button>
+[Back to Top](#table-of-contents)
 
 ## Fixed Point Iteration Method
 
@@ -325,11 +326,11 @@ fixedPointIteration(x0,e)
 
 ![Fixed Point Iteration Method](./assets/Fixed-Point-Iteration-Method.png)
 
-### Links
+### Link
 
 [Fixed Point Iteration Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab4-FixedPointIterationMethod.py)
 
-<button>[Back to Top](#table-of-contents)</button>
+[Back to Top](#table-of-contents)
 
 ## Lagrange Interpolation Method
 
@@ -362,18 +363,139 @@ fixedPointIteration(x0,e)
 ### Source Code
 
 ``` python
+# Importing NumPy Library
+import numpy as np
 
+# Reading number of unknowns
+n = int(input('Enter number of data points: '))
+
+# Making numpy array of n & n x n size and initializing 
+# to zero for storing x and y value along with difference of y
+x = np.zeros((n))
+y = np.zeros((n))
+
+# Reading data points
+print('Enter data for x and y: ')
+for i in range(n):
+  x[i] = float(input( 'x['+str(i)+']='))
+  y[i] = float(input( 'y['+str(i)+']='))
+
+# Reading interpolation point 
+xp = float(input('Enter polation point: '))
+
+# Set interpolated value initially to zero
+yp = 0
+
+# Implementing Lagrange Interpolation
+for i in range(n):
+  p = 1
+  for j in range(n):
+    if i != j:
+      p = p*(xp - x[j])/(x[i] - x[j])
+    
+  yp = yp +p * y[i]
+
+# Displaying output
+print('Interpolated value at %.3f is %.3f.'%(xp,yp))
 ```
 
 ### Output
 
 ![Lagrange Interpolation Method](./assets/Lagrange-Interpolation-Method.png)
 
-### Links
+### Link
 
 [Lagrange Interpolation Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab5-LagrangeInterpolationMethod.py)
 
-<button>[Back to Top](#table-of-contents)</button>
+[Back to Top](#table-of-contents)
+
+## Newton Divided Difference
+
+### Algorithm
+
+    1. Start.
+
+    2. Read number of points, say n.
+
+    3. Read the value at which interpolated value is needed, say x.
+
+    4. Read given data points.
+
+    5. Calculate First divided difference as,
+        For i = 0 to n - 1
+            dd[i] = fx[i]
+            End For
+    
+    6. Calculate second to nth divided difference as,
+        For i = 0 to n - 1
+            For j = n - 1 to i + 1
+                dd[j] = (dd[j] - dd[j - 1])/(x[j] - x[j -1 - i])
+            End For
+        End For
+    
+    7. Set v = 0 and p = 1
+
+    8. Calculated interpolated value as,
+        For i = 0 to n - 1
+            For j = 0 to i - 1
+                p = p * ( x - x1)
+            End For
+            v = v + dd[i] * p
+            Reset p = 1
+        End For
+    
+    9. Print the interpolated value v.
+
+    10. Stop
+
+### Source Code
+
+``` c
+#include<stdio.h>
+
+int main(){
+    int n, i, j;
+    float v = 0, p, xv, x[10], fx[10], a[10];
+    printf("Enter the number of points: ");
+    scanf("%d", &n);
+    printf("Enter the value of x: ");
+    scanf("%f",&xv);
+    for(i = 0; i < n; i++){
+        printf("x[%d]: ",i);
+        scanf("%f", &x[i]);
+        printf("fx[%d]: ",i);
+        scanf("%f", &fx[i]);
+    }
+    for(i = 0; i < n; i++){
+        a[i] = fx[i];
+    }
+    for(i = 0; i < n; i++){
+        for(j = n - 1; j > i; j --){
+            a[j] = (a[j] - a[j - 1])/(x[j] - x[j - 1 - i]);
+        }
+    }
+    v = 0;
+    for(i = 0; i < n; i++){
+        p = 1;
+        for(j = 0; j <= i-1; j++){
+            p = p * (xv - x[j]);
+        }
+        v =  v + a[i] * p;
+    }
+    printf("Interpolation value = %f\n",v);
+}
+```
+
+### Output
+
+![Newton's Divided Divided Difference](./assets/Newton-Divided-Difference.png)
+
+### Link
+
+[Newton's Divided Difference](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab6-NewtonDividedDifference.c)
+
+[Back to Top](#table-of-contents)
+
 
 # My Process 
 
@@ -381,10 +503,10 @@ fixedPointIteration(x0,e)
 
 [Code Sansar](https://www.codesansar.com/numerical-methods/)
 
-<button>[Back to Top](#table-of-contents)</button>
+[Back to Top](#table-of-contents)
 
 # Author
 
 - Website - [Kabir Deula](https://www.kabirdeula.com.np)
 
-<button>[Back to Top](#table-of-contents)</button>
+[Back to Top](#table-of-contents)
