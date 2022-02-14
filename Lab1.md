@@ -69,6 +69,6 @@ else:
 
 ## Link
 
-[Bisection Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab1-BisectionMethod.py)
+[Bisection Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab%2001.py)
 
 [Back to Home](README.md)

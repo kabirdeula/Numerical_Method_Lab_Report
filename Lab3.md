@@ -75,6 +75,6 @@ newtonRaphson(x0,e)
 
 ## Link
 
-[Newton Raphson Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab3-NewtonRaphsonMethod.py)
+[Newton Raphson Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab%2003.py)
 
 [Back to Home](README.md)

@@ -75,6 +75,6 @@ fixedPointIteration(x0,e)
 
 ## Link
 
-[Fixed Point Iteration Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab4-FixedPointIterationMethod.py)
+[Fixed Point Iteration Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab%2004.py)
 
 [Back to Home](README.md)
