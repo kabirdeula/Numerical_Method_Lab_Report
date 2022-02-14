@@ -74,6 +74,6 @@ else:
 
 ## Link
 
-[False Position Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab%2002.py)
+[False Position Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab02.py)
 
 [Back to Home](README.md)

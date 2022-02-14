@@ -72,6 +72,6 @@ print('Interpolated value at %.3f is %.3f.'%(xp,yp))
 
 ## Link
 
-[Lagrange Interpolation Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab%2005.py)
+[Lagrange Interpolation Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab05.py)
 
 [Back to Home](README.md)

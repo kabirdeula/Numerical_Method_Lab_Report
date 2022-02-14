@@ -82,6 +82,6 @@ int main(){
 
 ## Link
 
-[Newton's Divided Difference](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab%2006.c)
+[Newton's Divided Difference](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab06.c)
 
 [Back to Home](README.md)
