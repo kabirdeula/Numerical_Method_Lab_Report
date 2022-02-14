@@ -10,23 +10,26 @@ This is a Numerical Method Lab Report made using Python.
     - [Newton Raphson Method](#newton-raphson-method)
     - [Fixed Point Iteration Method](#fixed-point-iteration-method)
     - [Lagrange Interpolation Method](#lagrange-interpolation-method)
-    - [Newton Divided Difference](#newton-divided-difference)
+    - [Newton's Divided Difference](#newton-divided-difference)
+    - [Newton's Forward Difference](#newton-forward-difference)
 - [My Process](#my-process)
 - [Author](#author)
 
 # Overview
 
-## [Bisection Method](Lab1.md)
+## [Bisection Method](Lab01.md)
 
-## [False Position Method](Lab2.md)
+## [False Position Method](Lab02.md)
 
-## [Newton Raphson Method](Lab3.md)
+## [Newton Raphson Method](Lab03.md)
 
-## [Fixed Point Iteration Method](Lab4.md)
+## [Fixed Point Iteration Method](Lab04.md)
 
-## [Lagrange Interpolation Method](Lab5.md)
+## [Lagrange Interpolation Method](Lab05.md)
 
-## [Newton Divided Difference](Lab6.md)
+## [Newton Divided Difference](Lab06.md)
+
+## [Newton Forward Difference](Lab07.md)
 
 
 # My Process 
@@ -39,6 +42,15 @@ This is a Numerical Method Lab Report made using Python.
 
 # Author
 
-- Website - [Kabir Deula](https://www.kabirdeula.com.np)
+[<img src="https://img.shields.io/badge/-Website-05122A?style=for-the-badge&logo=brave">][website]
+[<img src="https://img.shields.io/badge/-Facebook-05122A?style=for-the-badge&logo=facebook">][facebook]
+[<img src="https://img.shields.io/badge/-Instagram-05122A?style=for-the-badge&logo=instagram">][instagram]
+[<img src="https://img.shields.io/badge/-Snapchat-05122A?style=for-the-badge&logo=snapchat">][snapchat]
 
 [Back to Home](README.md)
+
+
+[website]: https://www.kabirdeula.com.np 
+[snapchat]: https://www.snapchat.com/add/king_dragon2018
+[facebook]: http://facebook.com/kabirdeula167
+[instagram]: https://instagram.com/king_dragon2021/
