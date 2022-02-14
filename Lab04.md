@@ -1,4 +1,3 @@
-
 # Fixed Point Iteration Method
 
 ## Algorithm
@@ -71,7 +70,7 @@ fixedPointIteration(x0,e)
 
 ## Output
 
-![Fixed Point Iteration Method](./assets/Fixed-Point-Iteration-Method.png)
+![Fixed Point Iteration Method](./assets/04.png)
 
 ## Link
 

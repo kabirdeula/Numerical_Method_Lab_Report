@@ -1,4 +1,3 @@
-
 # Lagrange Interpolation Method
 
 ## Algorithm
@@ -68,7 +67,7 @@ print('Interpolated value at %.3f is %.3f.'%(xp,yp))
 
 ## Output
 
-![Lagrange Interpolation Method](./assets/Lagrange-Interpolation-Method.png)
+![Lagrange Interpolation Method](./assets/05.png)
 
 ## Link
 

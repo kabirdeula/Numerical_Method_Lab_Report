@@ -71,7 +71,7 @@ newtonRaphson(x0,e)
 
 ## Output
 
-![Newton Raphson Method](./assets/Newton-Raphson-Method.png)
+![Newton Raphson Method](./assets/03.png)
 
 ## Link
 

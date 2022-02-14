@@ -70,7 +70,7 @@ else:
 
 ## Output
 
-![False Position Method](./assets/False-Position-Method.png)
+![False Position Method](./assets/02.png)
 
 ## Link
 

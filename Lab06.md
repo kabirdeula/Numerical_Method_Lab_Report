@@ -1,4 +1,3 @@
-
 # Newton Divided Difference
 
 ## Algorithm
@@ -41,6 +40,7 @@
 ## Source Code
 
 ``` c
+
 #include<stdio.h>
 
 int main(){
@@ -78,7 +78,7 @@ int main(){
 
 ## Output
 
-![Newton's Divided Divided Difference](./assets/Newton-Divided-Difference.png)
+![Newton's Divided Divided Difference](./assets/06.png)
 
 ## Link
 

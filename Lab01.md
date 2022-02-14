@@ -65,7 +65,7 @@ else:
 
 ## Output
 
-![Bisection Method](./assets/Bisection-Method.png)
+![Bisection Method](./assets/01.png)
 
 ## Link
 
