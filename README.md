@@ -12,6 +12,10 @@ This is a Numerical Method Lab Report made using Python.
     - [Lagrange Interpolation Method](#lagrange-interpolation-method)
     - [Newton's Divided Difference](#newton-divided-difference)
     - [Newton's Forward Difference](#newton-forward-difference)
+    - [Newton's Backward Difference](#newton-backward-difference)
+    - [Cubic Spline](#cubic-spline)
+    - [Linear Regression](#linear-regression)
+    - [Polynomial Regression](#polynomial-regression)
 - [My Process](#my-process)
 - [Author](#author)
 
@@ -31,6 +35,13 @@ This is a Numerical Method Lab Report made using Python.
 
 ## [Newton Forward Difference](Lab07.md)
 
+## [Newton Backward Difference](Lab08.md)
+
+## [Cubic Spline](Lab09.md)
+
+## [Linear Regression](Lab10.md)
+
+## [Polynomial Regression](Lab11.md)
 
 # My Process 
 
