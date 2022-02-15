@@ -21,27 +21,27 @@ This is a Numerical Method Lab Report made using Python.
 
 # Overview
 
-## [Bisection Method](Lab01.md)
+## [Bisection Method](./doc/Lab01.md)
 
-## [False Position Method](Lab02.md)
+## [False Position Method](./doc/Lab02.md)
 
-## [Newton Raphson Method](Lab03.md)
+## [Newton Raphson Method](./doc/Lab03.md)
 
-## [Fixed Point Iteration Method](Lab04.md)
+## [Fixed Point Iteration Method](./doc/Lab04.md)
 
-## [Lagrange Interpolation Method](Lab05.md)
+## [Lagrange Interpolation Method](./doc/Lab05.md)
 
-## [Newton Divided Difference](Lab06.md)
+## [Newton Divided Difference](./doc/Lab06.md)
 
-## [Newton Forward Difference](Lab07.md)
+## [Newton Forward Difference](./doc/Lab07.md)
 
-## [Newton Backward Difference](Lab08.md)
+## [Newton Backward Difference](./doc/Lab08.md)
 
-## [Cubic Spline](Lab09.md)
+## [Cubic Spline](./doc/Lab09.md)
 
-## [Linear Regression](Lab10.md)
+## [Linear Regression](./doc/Lab10.md)
 
-## [Polynomial Regression](Lab11.md)
+## [Polynomial Regression](./doc/Lab11.md)
 
 # My Process 
 
