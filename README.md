@@ -16,6 +16,7 @@ This is a Numerical Method Lab Report made using Python.
     - [Cubic Spline](#cubic-spline)
     - [Linear Regression](#linear-regression)
     - [Polynomial Regression](#polynomial-regression)
+    - [Differenciation using Newton Divided Difference](#differentiation-using-newton-divided-difference)
 - [My Process](#my-process)
 - [Author](#author)
 
@@ -43,6 +44,8 @@ This is a Numerical Method Lab Report made using Python.
 
 ## [Polynomial Regression](./doc/Lab11.md)
 
+## [Differentiation using Newton Divided Difference](./doc/Lab12.md)
+
 # My Process 
 
 ## Useful Resources
@@ -53,10 +56,10 @@ This is a Numerical Method Lab Report made using Python.
 
 # Author
 
-[<img src="https://img.shields.io/badge/-Website-05122A?style=for-the-badge&logo=brave">][website]
-[<img src="https://img.shields.io/badge/-Facebook-05122A?style=for-the-badge&logo=facebook">][facebook]
-[<img src="https://img.shields.io/badge/-Instagram-05122A?style=for-the-badge&logo=instagram">][instagram]
-[<img src="https://img.shields.io/badge/-Snapchat-05122A?style=for-the-badge&logo=snapchat">][snapchat]
+[<img src="https://img.shields.io/badge/-Website-ED9?style=for-the-badge&logo=brave">][website]
+[<img src="https://img.shields.io/badge/-Facebook-FFE?style=for-the-badge&logo=facebook">][facebook]
+[<img src="https://img.shields.io/badge/-Instagram-ADA?style=for-the-badge&logo=instagram">][instagram]
+[<img src="https://img.shields.io/badge/-Snapchat-BCA?style=for-the-badge&logo=snapchat">][snapchat]
 
 [Back to Home](README.md)
 
