@@ -52,7 +52,7 @@ This is a Numerical Method Lab Report made using Python.
 
 [Code Sansar](https://www.codesansar.com/numerical-methods/)
 
-[Back to Home](README.md)
+[Back to Top](#table-of-contents)
 
 # Author
 
