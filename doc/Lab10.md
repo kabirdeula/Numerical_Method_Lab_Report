@@ -68,10 +68,10 @@ int main(){
 
 ## Output
 
-![Linear Regression](./assets/10.png)
+![Linear Regression](../assets/10.png)
 
 ## Links
 
 [Linear Regression](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab10.c)
 
-[Back to Home](README.md)
+[Back to Home](../README.md)

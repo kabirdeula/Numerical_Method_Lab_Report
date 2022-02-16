@@ -67,10 +67,10 @@ print('Interpolated value at %.3f is %.3f.'%(xp,yp))
 
 ## Output
 
-![Lagrange Interpolation Method](./assets/05.png)
+![Lagrange Interpolation Method](../assets/05.png)
 
 ## Link
 
 [Lagrange Interpolation Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab05.py)
 
-[Back to Home](README.md)
+[Back to Home](../README.md)

@@ -70,10 +70,10 @@ fixedPointIteration(x0,e)
 
 ## Output
 
-![Fixed Point Iteration Method](./assets/04.png)
+![Fixed Point Iteration Method](../assets/04.png)
 
 ## Link
 
 [Fixed Point Iteration Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab04.py)
 
-[Back to Home](README.md)
+[Back to Home](../README.md)

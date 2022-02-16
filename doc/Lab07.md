@@ -106,10 +106,10 @@ int main(){
 
 ## Output
 
-![Newton Forward Difference](./assets/07.png)
+![Newton Forward Difference](../assets/07.png)
 
 ## Link
 
 [Newton's Forward Difference](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab07.c)
 
-[Back to Home](README.md)
+[Back to Home](../README.md)

@@ -127,4 +127,4 @@ int main(){
 
 [Cublic Spline Interpolation](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab09.c)
 
-[Back to Home](README.md)
+[Back to Home](../README.md)

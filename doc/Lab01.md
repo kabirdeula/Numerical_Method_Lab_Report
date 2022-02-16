@@ -65,10 +65,10 @@ else:
 
 ## Output
 
-![Bisection Method](./assets/01.png)
+![Bisection Method](../assets/01.png)
 
 ## Link
 
 [Bisection Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab01.py)
 
-[Back to Home](README.md)
+[Back to Home](../README.md)

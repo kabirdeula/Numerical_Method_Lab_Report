@@ -71,10 +71,10 @@ newtonRaphson(x0,e)
 
 ## Output
 
-![Newton Raphson Method](./assets/03.png)
+![Newton Raphson Method](../assets/03.png)
 
 ## Link
 
 [Newton Raphson Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab03.py)
 
-[Back to Home](README.md)
+[Back to Home](../README.md)

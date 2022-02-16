@@ -103,10 +103,10 @@ int main(){
 
 ## Output
 
-![Newton's Backward Difference](./assets/08.png)
+![Newton's Backward Difference](../assets/08.png)
 
 ## Links
 
 [Newton's Backward Difference](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab08.c)
 
-[Back to Home](README.md)
+[Back to Home](../README.md)

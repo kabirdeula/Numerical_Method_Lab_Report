@@ -70,10 +70,10 @@ else:
 
 ## Output
 
-![False Position Method](./assets/02.png)
+![False Position Method](../assets/02.png)
 
 ## Link
 
 [False Position Method](https://github.com/kabirdeula/Numerical_Method_Lab_Report/blob/main/Lab%20Report/Lab02.py)
 
-[Back to Home](README.md)
+[Back to Home](../README.md)
