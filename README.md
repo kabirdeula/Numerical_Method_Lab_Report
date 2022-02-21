@@ -20,6 +20,7 @@ This is a Numerical Method Lab Report made using Python.
     - [Trapezoidal](#trapezoidal)
     - [Simpson 1/3](#simpson-1by3)
     - [Simpson 3/8](#simpson-3by8)
+    - [Gauss Jordan Method](#gauss-jordan-method)
 - [My Process](#my-process)
 - [Author](#author)
 
@@ -54,6 +55,8 @@ This is a Numerical Method Lab Report made using Python.
 ## [Simpson 1by3](./doc/Lab14.md)
 
 ## [Simpson 3by8](./doc/Lab15.md)
+
+## [Gauss Jordan Method](./doc/Lab16.md)
 
 # My Process 
 
